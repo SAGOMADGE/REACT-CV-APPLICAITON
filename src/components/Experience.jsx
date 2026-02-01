@@ -41,6 +41,7 @@ export default function Experience() {
             placeholder="Company name"
             value={experience.company}
             onChange={handleChange}
+            required
           />
 
           <input
@@ -48,6 +49,7 @@ export default function Experience() {
             placeholder="Company position"
             value={experience.position}
             onChange={handleChange}
+            required
           />
 
           <textarea
@@ -62,6 +64,7 @@ export default function Experience() {
             name="startDate"
             value={experience.startDate}
             onChange={handleChange}
+            required
           />
 
           <input
@@ -69,6 +72,7 @@ export default function Experience() {
             name="endDate"
             value={experience.endDate}
             onChange={handleChange}
+            required
           />
 
           <button type="submit">Submit</button>

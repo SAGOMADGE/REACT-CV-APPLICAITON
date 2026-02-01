@@ -1,0 +1,16 @@
+/* Стили для Education */
+
+input[type="text"],
+input[type="date"] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 16px;
+}

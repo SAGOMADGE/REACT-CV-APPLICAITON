@@ -28,6 +28,11 @@ export default function GeneralInfo() {
     setIsEditing(true);
   }
 
+  function capitalize(str) {
+    if (!str) return;
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  }
+
   return (
     <section>
       <h2>General Information</h2>
@@ -41,6 +46,7 @@ export default function GeneralInfo() {
             placeholder="Name"
             value={info.name}
             onChange={handleChange}
+            required
           />
 
           <input
@@ -49,6 +55,7 @@ export default function GeneralInfo() {
             placeholder="Email"
             value={info.email}
             onChange={handleChange}
+            required
           />
 
           <input
@@ -57,13 +64,14 @@ export default function GeneralInfo() {
             placeholder="Phone"
             value={info.phone}
             onChange={handleChange}
+            required
           />
 
           <button type="submit">Submit</button>
         </form>
       ) : (
         <div>
-          <p>Name: {info.name}</p>
+          <p>Name: {capitalize(info.name)}</p>
           <p>Email: {info.email}</p>
           <p>Phone: {info.phone}</p>
 

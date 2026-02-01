@@ -40,6 +40,7 @@ export default function Education() {
             placeholder="School"
             value={education.school}
             onChange={handleChange}
+            required
           />
 
           <input
@@ -47,6 +48,7 @@ export default function Education() {
             placeholder="Degree"
             value={education.degree}
             onChange={handleChange}
+            required
           />
 
           <input
@@ -54,6 +56,7 @@ export default function Education() {
             name="startDate"
             value={education.startDate}
             onChange={handleChange}
+            required
           />
 
           <input
@@ -61,6 +64,7 @@ export default function Education() {
             name="endDate"
             value={education.endDate}
             onChange={handleChange}
+            required
           />
 
           <button type="submit">Submit</button>
