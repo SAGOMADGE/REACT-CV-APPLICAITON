@@ -51,16 +51,20 @@ export default function Education() {
             required
           />
 
+          <label htmlFor="startDate">Start Date:</label>
           <input
             type="date"
+            id="startDate"
             name="startDate"
             value={education.startDate}
             onChange={handleChange}
             required
           />
 
+          <label htmlFor="endDate">End Date:</label>
           <input
             type="date"
+            id="endDate"
             name="endDate"
             value={education.endDate}
             onChange={handleChange}

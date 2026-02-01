@@ -59,6 +59,7 @@ export default function Experience() {
             onChange={handleChange}
           />
 
+          <label htmlFor="startDate">Start date:</label>
           <input
             type="date"
             name="startDate"
@@ -67,8 +68,10 @@ export default function Experience() {
             required
           />
 
+          <label htmlFor="endDate">End date:</label>
           <input
             type="date"
+            id="endDate"
             name="endDate"
             value={experience.endDate}
             onChange={handleChange}
