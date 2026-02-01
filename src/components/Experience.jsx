@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/education.css";
+import "../styles/experience.css";
 
 export default function Experience() {
   const [isEditing, setIsEditing] = useState(true);
