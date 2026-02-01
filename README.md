@@ -3,7 +3,7 @@
 Интерактивное приложение для создания резюме на React. Пользователь может вводить личную информацию, образование и опыт работы, редактировать данные и видеть итоговое CV в реальном времени.
 
 ## Demo
-Посмотреть проект онлайн: [CV Application на Vercel](https://react-cv-application.vercel.app)
+Посмотреть проект онлайн: ([https://react-cv-application.vercel.app](https://react-cv-applicaiton.vercel.app/))
 
 ## Технологии
 - React, JSX, useState
